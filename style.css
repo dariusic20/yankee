@@ -1,18 +1,72 @@
-* {
-    background-color: black;
-    color: antiquewhite;
+body {
+    background-color: #333; 
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
+
+[type="button"] {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
     text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        background-color: rgb(0, 0, 0);
-    }
-
-    /* Ajustează dimensiunile și layout-ul pentru elementele tale */
-    .container {
-        width: 100%;
-        padding: 0;
-    }
+[type="button"]:hover {
+    background-color: #42cc35;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
+[type="button"]:active {
+    transform: translateY(1px);
+}
+
+[type="cheatSheetBtn"] {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #5c1f27;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+[type="cheatSheetBtn"]:hover {
+    background-color: #cc3538;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+[type="cheatSheetBtn"]:active {
+    transform: translateY(1px);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease; 
+}
+
+input[type="text"]:hover {
+    border-color: #aaa; 
+}
+
+
+input[type="text"]:focus {
+    outline: none; 
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
