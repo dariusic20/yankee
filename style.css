@@ -3,3 +3,16 @@
     color: antiquewhite;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+
+    /* Ajustează dimensiunile și layout-ul pentru elementele tale */
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+}
+
